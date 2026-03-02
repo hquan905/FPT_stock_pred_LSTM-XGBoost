@@ -39,3 +39,38 @@ This hybrid architecture improves robustness and reduces forecast error compared
   
 ## Results & Conclusion
 
+The models were evaluated using MAE, MSE and R² score on both training and testing datasets
+
+* **LSTM**
+
+  -MAE:	0.05
+
+  -RMSE:	0.05
+
+  -R²:	0.79
+
+* **Hybrid LSTM + XGBoost**
+  
+  -MAE: 0.01
+  
+  -RMSW: 0.02
+  
+  -R²:	0.98
+
+** Key Findings **
+
+The hybrid model reduced RMSE from 0.05 to 0.02 (~60% improvement).
+
+R² improved significantly from 0.79 to 0.98, indicating much stronger explanatory power.
+
+Residual learning with XGBoost substantially improved prediction accuracy.
+
+The hybrid model better handled nonlinear fluctuations and short-term volatility.
+
+** Conclusion **
+
+This project demonstrates that combining deep learning and gradient boosting significantly enhances financial time-series forecasting performance.
+
+While LSTM effectively captures trend and sequential dependencies, it struggles with nonlinear shocks and abrupt market movements. By training XGBoost on residual errors, the hybrid model successfully corrects systematic prediction bias and improves generalization on unseen data.
+
+The results confirm that residual learning is a powerful strategy for improving forecasting robustness in financial markets.
