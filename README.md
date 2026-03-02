@@ -13,7 +13,7 @@ Final prediction:
 Final Prediction=LSTM Prediction+XGBoost Residual Prediction
 
 This hybrid architecture improves robustness and reduces forecast error compared to standalone models.
-## Project Structure
+
 ## Project Structure
 
 - `BaoCaoDubao_FPT.pdf`  
@@ -30,6 +30,12 @@ This hybrid architecture improves robustness and reduces forecast error compared
 - `requirements.txt`  
   List of required Python dependencies.
   
-**Workflow**
 ## Dataset
+
+* **Source:** Investing.com
+* **Ticker:** FPT.
+* **Timeframe:** 02/03/2016 - 02/03/2026.
+* **Target Variable:** Close Price.
+  
 ## Results & Conclusion
+
