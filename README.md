@@ -35,7 +35,7 @@ This hybrid architecture improves robustness and reduces forecast error compared
 * **Source:** Investing.com
 * **Ticker:** FPT.
 * **Timeframe:** 02/03/2016 - 02/03/2026.
-* **Target Variable:** Close Price.
+* **Target Variable:** Price (Close Price).
   
 ## Results & Conclusion
 
